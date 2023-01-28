@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(../Src/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    font-size: xx-large;
+    text-align: left;
+    color: black;
+    text-shadow: 5px 5px 5px red;
+   }
+
+
+h2{
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+}
+
+
+.logo{
+    position: relative;
+    top: 150px; left: 100px;
+    border: 2px solid black;
+}
+
+nav{
+    display: inline; 
+    position: relative;
+    top: -600px; left: 1000px;
+}
+
+nav a{
+    display: inline;
+    width: fit-content;
+    font-size: medium;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: 2px solid black;  
+    box-shadow: 5px 5px 0px 0px grey;
+    text-decoration: none;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    
+    }
+    
+    nav a:hover{
+        background-color: blue;
+    }
+    
+    nav a:hover{
+        box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+        transform: translate(0px,5px);
+        -webkit-transform: translate(0px,5px);
+        -moz-transform:translate(0px,5px);
+        }
+
+.index{
+    display: inline-block;
+    margin-left: 300px ;
+    font-size: x-large;
+    line-height: 50px;
+}
+
+.index-txt{
+    margin-left: 20px;
+}
