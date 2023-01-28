@@ -51,9 +51,7 @@ nav a{
     margin-left: 80px ;
     font-size: x-large;
     line-height: 50px;
-    
+    position: relative;
+    top: -200px;
 }
 
-.index-txt{
-    margin-left: 20px;
-}

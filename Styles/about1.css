@@ -48,16 +48,20 @@ nav a{
 
 .index{
     display: inline-block;
-    /* margin-left: 200px ; */
+    margin-left: 200px ;
     font-size: x-large;
-    line-height: 50px;
+    line-height: 40px;
     padding: 100px;
     text-align: justify;
+    position: relative;
+    top: -490px;
    
 }
 
 .index-txt{
+    display: inline-block;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 
