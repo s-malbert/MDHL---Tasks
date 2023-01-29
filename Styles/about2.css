@@ -9,8 +9,9 @@ header{
     background-image: url(../Src/img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 0px 50px;
     height: 500px;
-    font-size: xx-large;
+    font-size: large;
     text-align: left;
     color: black;
     text-shadow: 5px 5px 5px red;
@@ -35,7 +36,7 @@ h2{
 nav{
     display: inline; 
     position: relative;
-    top: -600px; left: 1000px;
+    top: -630px; left: 1000px;
 }
 
 nav a{
@@ -69,11 +70,22 @@ nav a{
 
 .index{
     display: inline-block;
-    margin-left: 300px ;
+    margin-left: 290px ;
+    margin-right: 150px;
     font-size: x-large;
     line-height: 50px;
+    text-align: justify;
+    
 }
 
-.index-txt{
-    margin-left: 20px;
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    font-size: xx-small;
+    margin-top: 100px;
+
 }
