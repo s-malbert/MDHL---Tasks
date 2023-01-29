@@ -28,15 +28,17 @@ h2{
 
 
 .logo{
+    width: 150px;
+    height: 150px;
     position: relative;
-    top: 150px; left: 100px;
+    top: 170px; left: 100px;
     border: 2px solid black;
 }
 
 nav{
     display: inline; 
     position: relative;
-    top: -630px; left: 1000px;
+    top: -1430px; left: 1000px;
 }
 
 nav a{
@@ -54,27 +56,27 @@ nav a{
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
+}
     
-    }
+nav a:hover{
+    background-color: blue;
+}
     
-    nav a:hover{
-        background-color: blue;
-    }
-    
-    nav a:hover{
-        box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
-        transform: translate(0px,5px);
-        -webkit-transform: translate(0px,5px);
-        -moz-transform:translate(0px,5px);
-        }
+nav a:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
 
 .index{
     display: inline-block;
-    margin-left: 290px ;
-    margin-right: 150px;
     font-size: x-large;
     line-height: 50px;
     text-align: justify;
+    width: 800px;
+    height: 550px;
+    margin-left: 100px;
     
 }
 

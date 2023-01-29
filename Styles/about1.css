@@ -28,34 +28,33 @@ h2{
 
 
 .logo{
+    width: 150px;
+    height: 150px;
     position: relative;
     top: -75px; left: 1050px;
 }
 
 nav{
-    display: inline-block; 
+    float: left;
 }
 
 nav a{
     display: block;
     width: fit-content;
+    height: fit-content ;
     font-size: x-large;
     margin-bottom: 100px;
     margin-left: 100px;
-   /*     padding: 32px;
-    background-color: green; */
 }
 
 .index{
     display: inline-block;
-    margin-left: 200px ;
     font-size: x-large;
     line-height: 40px;
-    padding: 100px;
     text-align: justify;
-    position: relative;
-    top: -490px;
-   
+    width: 900px;
+    height: 550px;
+    margin-left: 100px;
 }
 
 .index-txt{
@@ -64,4 +63,12 @@ nav a{
     margin-bottom: 20px;
 }
 
-
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    font-size: xx-small;
+    margin-top: 100px;
+}

@@ -29,6 +29,8 @@ h2{
 
 
 .logo{
+    width: 150px;
+    height: 150px;
     position: relative;
     top: 120px; left: 100px;
     border: 2px solid black;
@@ -37,7 +39,7 @@ h2{
 nav{
     display: inline; 
     position: relative;
-    top: -700px; left: 1000px;
+    top: -730px; left: 1000px;
 }
 
 nav a{
