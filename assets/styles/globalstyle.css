@@ -18,6 +18,19 @@ header{
     border: 2px solid rgb(255, 166, 0);
     color: white;
        
+}header{
+    background-image: url(../src/img2.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px 100px;
+    height: 500px;
+    line-height: 150px;
+    font-size: 35px;
+    text-align: center;
+    border: 2px solid rgb(255, 166, 0);
+    color: white;
+       
 }
 
 body{
@@ -32,7 +45,6 @@ h2{
     line-height: 60px;
     height: 60px;
 }
-
 
 .logo{
     position: relative;
@@ -50,7 +62,7 @@ figure{
 nav{
     display: inline; 
     position: relative;
-    top: -100px; left: 470px;
+    top: -100px; left: 370px;
 }
 
 nav a{
@@ -90,6 +102,7 @@ nav a:hover{
 }
 
 
+
 footer{
     background-color: black;
     color:white;
@@ -98,6 +111,4 @@ footer{
     height: 50px;
     font-size: xx-small;
     margin-top: 100px;
-
 }
-
