@@ -34,6 +34,12 @@ h2{
     height: 60px;
 }
 
+h3{
+    text-align: center;
+    
+}
+
+
 .logo{
     position: relative;
     top: -130px; left: 100px;
@@ -48,7 +54,7 @@ figure{
 }
 
 nav{
-    display: inline; 
+    display: flex; 
     position: relative;
     top: -100px; left: 370px;
 }
@@ -82,14 +88,18 @@ nav a:hover{
     font-size: x-large;
     text-align: justify;
     line-height: 50px;
-    padding: 80px;
+    padding: 50px;
     font-weight: bold;
+
           
 }
 
 .index-txt{
      color: rgb(39, 35, 35);
      font-weight: lighter;
+     text-align: center;
+     margin-bottom: 30px;
+     
 }
 
 .index-txt1{
@@ -103,10 +113,6 @@ nav a:hover{
     font-weight: lighter;
 }
 
-.title{
-    text-align: center;
-    margin-bottom: 40px;
-}
 
 .other-item{
     list-style-type: lower-latin;
@@ -130,23 +136,29 @@ nav a:hover{
 .container p{
     font-weight: lighter;
 }
+
+.list{
+    padding-left: 5px;
+
+}
+
 tbody td{
     font-weight: lighter;
 }
 
-div dt{
+dt{
     font-weight: bold;
     font-size:larger;
 }
 
-div dd{
+dd{
     font-weight: lighter;
     margin-bottom: 60px;
     text-indent: 60px;
     margin-top: 30px;
 }
 
-ol p{
+ol dd{
     font-weight: lighter;
     margin-bottom: 60px;
 }
