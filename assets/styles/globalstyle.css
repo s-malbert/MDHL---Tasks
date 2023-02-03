@@ -88,8 +88,9 @@ nav a:hover{
     font-size: x-large;
     text-align: justify;
     line-height: 50px;
-    padding: 50px;
+    padding: 100px;
     font-weight: bold;
+    margin-top: 5px;
 
           
 }
@@ -118,6 +119,7 @@ nav a:hover{
     list-style-type: lower-latin;
     font-weight: lighter;
     margin-bottom: 60px;
+    
 }
 
 .table{
@@ -133,13 +135,31 @@ nav a:hover{
     font-size: medium;
 }
 
-.container p{
-    font-weight: lighter;
+.txt1{
+    float: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.txt2{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.txt3{
+    display: flex;
+    float: left;
+}
+
+.txt4{
+    display: flex;
+    float: right;
+    margin-right: 8px;
 }
 
 .list{
     padding-left: 5px;
-
 }
 
 tbody td{
