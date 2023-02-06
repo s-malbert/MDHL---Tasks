@@ -1,28 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
       
 header{
     background-image: url(../src/img2.jpg);
-    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px 100px;
     height: 500px;
     line-height: 150px;
-    font-size: 35px;
+    font-size: 60px;
     text-align: center;
-    border: 2px solid rgb(255, 166, 0);
-    color: white;
-       
+    color: rgb(255, 243, 82);
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 5px 5px 5px black;
+
 }
 
 body{
-    background-color: rgb(250, 250, 216);
+    background-color: rgb(253, 253, 147);
 }
 
 h2{
@@ -32,6 +32,7 @@ h2{
     font-size: xx-large;
     line-height: 60px;
     height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 h3{
@@ -50,20 +51,22 @@ h3{
 
 figure{
     width: 1098px;
-    height: 150px;
+    height: 90px;
 }
 
-nav{
+nav ul{
     display: flex; 
-    position: relative;
-    top: -100px; left: 370px;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 
 nav a{
-    display: inline;
     width: fit-content;
     font-size: large;
     font-style: italic;
+    font-weight: bold;
     margin-bottom: 100px;
     margin-left: 10px;
     padding: 20px;
@@ -76,7 +79,7 @@ nav a{
 }
 
 nav a:hover{
-    box-shadow: 0 8px 8px 0 #faaa42,0 8px 8px 0 #000000;
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
     transform: translate(0px,5px);
     -webkit-transform: translate(0px,5px);
     -moz-transform:translate(0px,5px);
@@ -84,13 +87,16 @@ nav a:hover{
    
 
 .index{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     font-size: x-large;
     text-align: justify;
-    line-height: 50px;
-    padding: 100px;
+    line-height: 30px;
+    padding: 80px;
     font-weight: bold;
     margin-top: 5px;
+    
 
           
 }
@@ -99,7 +105,7 @@ nav a:hover{
      color: rgb(39, 35, 35);
      font-weight: lighter;
      text-align: center;
-     margin-bottom: 30px;
+     margin-bottom: 20px;
      
 }
 
@@ -118,11 +124,15 @@ nav a:hover{
 .other-item{
     list-style-type: lower-latin;
     font-weight: lighter;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    line-height: 25px;
     
 }
 
 .table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-spacing: 20px;
    
 }
