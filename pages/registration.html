@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../assets/styles/globalstyle.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mighty Ducks Hockey League</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Game info</h2>
+        </section>
+
+        <figure>
+            <img class="logo" src="../assets/src/Logo_Mighty_ducks-01.jpg" alt="Logo">
+        </figure>
+
+        <nav>
+            <ul>
+                <li style="list-style-type: none;"><a href="../index.html">Home</a></li>
+                <li style="list-style-type: none;"><a href="./about.html">About MDHL</a></li>
+                <li style="list-style-type: none;"><a href="./contact.html">Contact</a></li>
+                <li style="list-style-type: none;"><a href="./game.html">Game</a></li>
+                <li style="list-style-type: none;"><a href="./rules.html">Rules</a></li>
+                <li style="list-style-type: none;"><a href="#">Registration Form</a></li>
+            </ul>
+        </nav>
+    </main>
+    <section>
+        <form class="form" action="../assets/show_data.html" method="get">
+            <fieldset> <!-- datos texto -->
+                <label class="contact-label" for="nombre_id">Player's First Name</label>
+                <input class="contact-input" type="text" placeholder="Name" name="name" id="nombre_id">
+            </fieldset>
+            <fieldset>
+                <label class="contact-label" for="nombre_id">Last Name</label>
+                <input class="contact-input" type="text" placeholder="Last name" name="last-name" id="nombre_id">
+            </fieldset>
+            <fieldset>
+                <label class="contact-label" for="nombre_id">Street Address</label>
+                <input class="contact-input" type="text" placeholder="Address" name="address" id="nombre_id">
+            </fieldset>
+            <fieldset>
+                <label class="contact-label" for="nombre_id">City</label>
+                <input class="contact-input" type="text" placeholder="City" name="city" id="nombre_id">
+            </fieldset>
+
+            <fieldset> <!-- numero -->
+                <label class="contact-label" for="tiene_que_ser_igual_al_id">Zip Code</label>
+                <input class="contact-input" type="number" min="0" max="50" value="00" name="zip-code"
+                    id="tiene_que_ser_igual_al_id">
+            </fieldset>
+
+            <fieldset><!-- fecha -->
+                <label class="contact-label" for="date">Birth Date</label>
+                <input class="contact-input" type="date" name="birth-date" id="date">
+            </fieldset>
+
+            <fieldset><!-- gender-->
+                <label class="contact-label" for="gender_id">Gender:</label>
+                <input type="radio" name="gender" value="female" id="gender_female">
+                <label class="contact-label" for="suscription_yes">Female</label>
+                <input type="radio" name="gender" value="male" id="gender_male">
+                <label class="contact-label" for="suscription_no">Male</label>
+            </fieldset>
+
+            <fieldset><!-- grade con checks -->
+                <label class="contact-label" for="grade_id">Grade:</label>
+                <input type="checkbox" name="grade" id="pre-school" value="pre-school">
+                <label class="contact-label" for="grade">Pre-school</label>
+                <input type="checkbox" name="grade" id="pre-school" value="1st">
+                <label class="contact-label" for="grade">1st</label>
+                <input type="checkbox" name="grade" id="pre-school" value="2nd">
+                <label class="contact-label" for="grade">2nd</label>
+                <input type="checkbox" name="grade" id="pre-school" value="3rd">
+                <label class="contact-label" for="grade">3rd</label>
+                <input type="checkbox" name="grade" id="pre-school" value="4th">
+                <label class="contact-label" for="grade">4th</label>
+                <input type="checkbox" name="grade" id="pre-school" value="5th">
+                <label class="contact-label" for="grade">5th</label>
+            </fieldset>
+
+            <fieldset>
+                <label class="contact-label" for="cschool_id">Which elementary school do you live near to?</label>
+                <label class="contact-label" for="cschool_id">Closest school:</label>
+                <select name="closest-school" id="closest-school">
+                    <!-- multiple como atributo para seleccionar varias con CTRL -->
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value="North Elementary">North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
+            </fieldset>
+            <p>Permission to Play: I, the parent or guardian of the minor registrant, agree that the registrant and I
+                will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                physical injury associated with hockey and in consideration for the "League" accepting the registrant
+                for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
+                their employees and associated personnel and volunteers,including the facilities used for practices and
+                games, against any claim by or on behalf of the registrant as a result of the registrant's participation
+                in the program and/or being transported to or from MDHL sponsored activities,which transportation by
+                entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also
+                acknowledge that I have read the cancellation policy and agree to its terms</p>
+
+            <fieldset><!-- suscripcion con radio -->
+                <label class="submit-label" for="submit_id">Submit info:</label>
+                <input type="radio" name="suscription" value="yes" id="suscription_yes">
+                <label class="contact-label" for="suscription_yes">Agree</label>
+                <input type="radio" name="suscription" value="no" id="suscription_no">
+                <label class="contact-label" for="suscription_no">Don't agree</label>
+            </fieldset>
+
+            <fieldset><!-- fecha -->
+                <label class="contact-label" for="dateofsignature">Signature Date:</label>
+                <input class="contact-input" type="date" name="signature-date" id="date">
+            </fieldset>
+
+            <input class="contact-button" type="submit" value="enviar">
+
+        </form>
+
+    </section>
+
+    <footer>
+        <h1>Stephanie Malbert &copy; 2023</h1>
+    </footer>
+
+</body>
+
+</html>
