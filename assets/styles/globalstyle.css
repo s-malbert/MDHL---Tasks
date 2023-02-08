@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+      
+header{
+    background-image: url(../src/img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    line-height: 150px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 243, 82);
+    font-family: 'Shadows Into Light', cursive;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+body{
+    background-color: rgb(253, 253, 147);
+}
+
+h2{
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-size: xx-large;
+    line-height: 60px;
+    height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h3{
+    text-align: center;
+    
+}
+
+
+.logo{
+    position: relative;
+    top: -130px; left: 100px;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+figure{
+    width: 1098px;
+    height: 90px;
+}
+
+nav ul{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+nav a{
+    width: fit-content;
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    padding: 20px;
+    color: black;
+    box-shadow: 0px 2px 2px 0px black;
+    text-decoration: none;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+nav a:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+   
+
+.index{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: x-large;
+    text-align: justify;
+    line-height: 30px;
+    padding: 80px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+
+          
+}
+
+.index-txt{
+     color: rgb(39, 35, 35);
+     font-weight: lighter;
+     text-align: center;
+     margin-bottom: 20px;
+     
+}
+
+.index-txt1{
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.index-txt2{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+
+.other-item{
+    list-style-type: lower-latin;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    line-height: 25px;
+    
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-spacing: 20px;
+   
+}
+
+.date{
+    text-align: center;
+}
+
+.container{
+    font-size: medium;
+}
+
+.txt1{
+    float: left;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.txt2{
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.txt3{
+    display: flex;
+    float: left;
+}
+
+.txt4{
+    display: flex;
+    float: right;
+    margin-right: 8px;
+}
+
+.list{
+    padding-left: 5px;
+}
+
+tbody td{
+    font-weight: lighter;
+}
+
+dt{
+    font-weight: bold;
+    font-size:larger;
+}
+
+dd{
+    font-weight: lighter;
+    margin-bottom: 60px;
+    text-indent: 60px;
+    margin-top: 30px;
+}
+
+ol dd{
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+ol li{
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+
+ul p{
+    font-weight: lighter;
+    text-indent: 60px;
+}
+
+ul li{
+    list-style-type: circle;
+    font-weight: lighter;
+    margin-bottom: 60px;
+}
+
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    font-size: xx-small;
+    margin-top: 100px;
+}
