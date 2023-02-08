@@ -16,7 +16,7 @@
 
     <main>
         <section>
-            <h2>Game info</h2>
+            <h2>Registration Form</h2>
         </section>
 
         <figure>
@@ -35,62 +35,63 @@
         </nav>
     </main>
     <section>
+        <h3>REGISTRATION FORM</h3>
         <form class="form" action="../assets/show_data.html" method="get">
             <fieldset> <!-- datos texto -->
                 <label class="contact-label" for="nombre_id">Player's First Name</label>
                 <input class="contact-input" type="text" placeholder="Name" name="name" id="nombre_id">
             </fieldset>
             <fieldset>
-                <label class="contact-label" for="nombre_id">Last Name</label>
-                <input class="contact-input" type="text" placeholder="Last name" name="last-name" id="nombre_id">
+                <label class="contact-label" for="lastname_id">Last Name</label>
+                <input class="contact-input" type="text" placeholder="Last name" name="last-name" id="lastname_id">
             </fieldset>
             <fieldset>
-                <label class="contact-label" for="nombre_id">Street Address</label>
-                <input class="contact-input" type="text" placeholder="Address" name="address" id="nombre_id">
+                <label class="contact-label" for="street_id">Street Address</label>
+                <input class="contact-input" type="text" placeholder="Address" name="address" id="street_id">
             </fieldset>
             <fieldset>
-                <label class="contact-label" for="nombre_id">City</label>
-                <input class="contact-input" type="text" placeholder="City" name="city" id="nombre_id">
+                <label class="contact-label" for="city_id">City</label>
+                <input class="contact-input" type="text" placeholder="City" name="city" id="city_id">
             </fieldset>
 
             <fieldset> <!-- numero -->
-                <label class="contact-label" for="tiene_que_ser_igual_al_id">Zip Code</label>
+                <label class="contact-label" for="zipcode_id">Zip Code</label>
                 <input class="contact-input" type="number" min="0" max="50" value="00" name="zip-code"
-                    id="tiene_que_ser_igual_al_id">
+                    id="zipcode_id">
             </fieldset>
 
             <fieldset><!-- fecha -->
                 <label class="contact-label" for="date">Birth Date</label>
-                <input class="contact-input" type="date" name="birth-date" id="date">
+                <input class="contact-input" type="date" name="birth-date" min="1900-01-01" max="2018-12-31" id="date">
             </fieldset>
 
             <fieldset><!-- gender-->
-                <label class="contact-label" for="gender_id">Gender:</label>
+                <label class="contact-label">Gender:</label>
                 <input type="radio" name="gender" value="female" id="gender_female">
-                <label class="contact-label" for="suscription_yes">Female</label>
+                <label class="contact-label" for="gender_female">Female</label>
                 <input type="radio" name="gender" value="male" id="gender_male">
-                <label class="contact-label" for="suscription_no">Male</label>
+                <label class="contact-label" for="gender_male">Male</label>
             </fieldset>
 
             <fieldset><!-- grade con checks -->
-                <label class="contact-label" for="grade_id">Grade:</label>
+                <label class="contact-label">Grade:</label>
                 <input type="checkbox" name="grade" id="pre-school" value="pre-school">
-                <label class="contact-label" for="grade">Pre-school</label>
-                <input type="checkbox" name="grade" id="pre-school" value="1st">
-                <label class="contact-label" for="grade">1st</label>
-                <input type="checkbox" name="grade" id="pre-school" value="2nd">
-                <label class="contact-label" for="grade">2nd</label>
-                <input type="checkbox" name="grade" id="pre-school" value="3rd">
-                <label class="contact-label" for="grade">3rd</label>
-                <input type="checkbox" name="grade" id="pre-school" value="4th">
-                <label class="contact-label" for="grade">4th</label>
-                <input type="checkbox" name="grade" id="pre-school" value="5th">
-                <label class="contact-label" for="grade">5th</label>
+                <label class="contact-label" for="pre-school">Pre-school</label>
+                <input type="checkbox" name="grade" id="1st" value="1st">
+                <label class="contact-label" for="1st">1st</label>
+                <input type="checkbox" name="grade" id="2nd" value="2nd">
+                <label class="contact-label" for="2nd">2nd</label>
+                <input type="checkbox" name="grade" id="3rd" value="3rd">
+                <label class="contact-label" for="3rd">3rd</label>
+                <input type="checkbox" name="grade" id="4th" value="4th">
+                <label class="contact-label" for="4th">4th</label>
+                <input type="checkbox" name="grade" id="5th" value="5th">
+                <label class="contact-label" for="5th">5th</label>
             </fieldset>
 
             <fieldset>
-                <label class="contact-label" for="cschool_id">Which elementary school do you live near to?</label>
-                <label class="contact-label" for="cschool_id">Closest school:</label>
+                <label class="bold-contact-label">Which elementary school do you live near to?</label>
+                <label class="contact-label" for="closest-school">Closest school:</label>
                 <select name="closest-school" id="closest-school">
                     <!-- multiple como atributo para seleccionar varias con CTRL -->
                     <option value="AJ Katzenmaier">AJ Katzenmaier</option>
@@ -101,18 +102,55 @@
                     <option value="South Elementary">South Elementary</option>
                 </select>
             </fieldset>
-            <p>Permission to Play: I, the parent or guardian of the minor registrant, agree that the registrant and I
-                will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
-                physical injury associated with hockey and in consideration for the "League" accepting the registrant
-                for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL,
-                their employees and associated personnel and volunteers,including the facilities used for practices and
-                games, against any claim by or on behalf of the registrant as a result of the registrant's participation
-                in the program and/or being transported to or from MDHL sponsored activities,which transportation by
-                entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also
-                acknowledge that I have read the cancellation policy and agree to its terms</p>
+            <fieldset>
+                <label class="bold-contact-label">What position(s) do you normally play? (check all that
+                    apply)</label>
+                <select name="position-played" id="position-played" multiple>
+                    <!-- multiple como atributo para seleccionar varias con CTRL -->
+                    <option value="AJ Katzenmaier">AJ Katzenmaier</option>
+                    <option value="Greenbay">Greenbay</option>
+                    <option value="Howard A Yeager">Howard A Yeager</option>
+                    <option value="Marjorie P Hart">Marjorie P Hart</option>
+                    <option value="North Elementary">North Elementary</option>
+                    <option value="South Elementary">South Elementary</option>
+                </select>
+            </fieldset>
+            <fieldset><!-- uniform size -->
+                <label class="bold-contact-label">Uniform size:</label>
+                <label class="contact-label" for="ys">Youth small</label>
+                <input type="radio" name="size" value="Youth small" id="ys">
+                <label class="contact-label" for="ym">Youth medium</label>
+                <input type="radio" name="size" value="Youth medium" id="ym">
+                <label class="contact-label" for="yl">Youth large</label>
+                <input type="radio" name="size" value="Youth large" id="yl">
+                <label class="contact-label" for="s">Small</label>
+                <input type="radio" name="size" value="Small" id="s">
+                <label class="contact-label" for="m">Medium</label>
+                <input type="radio" name="size" value="Medium" id="m">
+                <label class="contact-label" for="l">Large</label>
+                <input type="radio" name="size" value="Large" id="l">
+                <label class="contact-label" for="xl">Extra-large</label>
+                <input type="radio" name="size" value="Extra-large" id="xl">
+            </fieldset>
 
             <fieldset><!-- suscripcion con radio -->
-                <label class="submit-label" for="submit_id">Submit info:</label>
+                <label class="bold-contact-label">Permission to Play:</label>
+                <p> I, the parent or guardian of the minor registrant, agree that the registrant and I
+                    will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility
+                    of
+                    physical injury associated with hockey and in consideration for the "League" accepting the
+                    registrant
+                    for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify
+                    MDHL,
+                    their employees and associated personnel and volunteers,including the facilities used for practices
+                    and
+                    games, against any claim by or on behalf of the registrant as a result of the registrant's
+                    participation
+                    in the program and/or being transported to or from MDHL sponsored activities,which transportation by
+                    entering my name below, I hereby agree and authorize the above. In addition, by entering my name
+                    below, I also
+                    acknowledge that I have read the cancellation policy and agree to its terms</p>
+                <label class="submit-label">Submit info:</label>
                 <input type="radio" name="suscription" value="yes" id="suscription_yes">
                 <label class="contact-label" for="suscription_yes">Agree</label>
                 <input type="radio" name="suscription" value="no" id="suscription_no">
@@ -120,11 +158,11 @@
             </fieldset>
 
             <fieldset><!-- fecha -->
-                <label class="contact-label" for="dateofsignature">Signature Date:</label>
-                <input class="contact-input" type="date" name="signature-date" id="date">
+                <label class="bold-contact-label" for="dateofsignature">Signature Date:</label>
+                <input class="contact-input" type="date" name="signature-date" value="" id="dateofsignature">
             </fieldset>
 
-            <input class="contact-button" type="submit" value="enviar">
+            <input class="contact-button" type="submit" value="SEND">
 
         </form>
 
