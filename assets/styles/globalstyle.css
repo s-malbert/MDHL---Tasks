@@ -18,7 +18,6 @@ header{
     color: rgb(255, 243, 82);
     font-family: 'Shadows Into Light', cursive;
     text-shadow: 5px 5px 5px black;
-
 }
 
 body{
@@ -39,8 +38,6 @@ h3{
     text-align: center;
     font-size: xx-large;
 }
-
-
 
 .logo{
     position: relative;
@@ -135,12 +132,9 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     border-spacing: 20px;
-        /* display: flex;
-    padding: 50px; */
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-   
 }
 
 .date{
@@ -168,7 +162,6 @@ nav a:hover{
     padding-left: 5px;
 }
 
-
 .form{
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         position : relative;
@@ -177,11 +170,11 @@ nav a:hover{
         margin : 0 auto;
         padding: 1em;
         box-sizing: border-box;
-        background : #ffce63 url(background.jpg);
-        display  : grid;
-        grid-gap : 40px;
-        grid-template-columns : repeat(2, 1fr);
-        grid-template-rows    : 10px 1px 1px 1px;
+        background: #ffce63;
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 10px 1px 1px 1px;
 }
 
 .fieldset{
@@ -223,13 +216,11 @@ form input{
 thead tr{
     display: flex;
     justify-content: left;
-   
 }
-
 
 th, td {
     padding: 20px;
-  }
+}
 
 tbody tr{
     font-weight: lighter;
@@ -270,13 +261,11 @@ ul li{
     margin-bottom: 60px;
 }
 
-
 div section{
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
 
 footer{
     background-color: black;
